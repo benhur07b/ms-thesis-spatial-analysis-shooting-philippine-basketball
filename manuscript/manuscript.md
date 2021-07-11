@@ -3,7 +3,7 @@
 
 ## 1.1 Background
 
-*Basketball is spatial.* Any event that occurs during a basketball game—a made shot, a missed shot, a rebound—has a corresponding spatial or spatio-temporal information embedded in it and, one can argue, that location oftentimes plays an important role in its occurrence or success.
+_Basketball is spatial._ Any event that occurs during a basketball game—a made shot, a missed shot, a rebound—has a corresponding spatial or spatio-temporal information embedded in it and, one can argue, that location oftentimes plays an important role in its occurrence or success.
 
 If you think of the basketball court as a map, a parcel of the earth, or simply a cartesian coordinate plane then every location on the court can be specified by a coordinate pair. If we consider one type of basketball event—a shot or field goal—every occurrence of this event on the court will have its own corresponding coordinates. Aside from coordinates, these field goals can also have attributes or marks—the name of the player, the name of the team, the opponent, the time left on the clock, whether the shot was made or not, whether it was defended—that provide other information about the field goal. If we take this collection of field goals, what we actually have is a collection of points in space that is, similar to any spatial point dataset, susceptible to spatial analysis. This is why it makes sense to analyze basketball from a spatial perspective.
 
@@ -27,6 +27,7 @@ Finally, the research applies these methods and metrics to a case study of the U
 ## 1.4 Research objectives
 
 The general goal of this research is to display and highlight the value of spatial analysis as applied in Philippine basketball. To meet this goal, the specific objectives of this research are:
+
 1. To divide the court into shooting areas stochastically by using the spatial dataset of field goals to find commonly occurring patterns of where field goals are taken;
 2. To group similar players based on their shooting tendencies;
 3. To generate spatially-aware metrics of shooting and show how they can be applied to analyze players and teams; and
@@ -51,7 +52,7 @@ One study that looked at the entire pipeline of spatial analysis for Philippine 
 
 **Figure 2.1**
 
-*The CourtVisionPH System (Pintor and Cataniag, 2014)*
+_The CourtVisionPH System (Pintor and Cataniag, 2014)_
 
 ![The CourtVisionPH System (Pintor and Cataniag, 2014)][img-courtvisionph]
 
@@ -68,7 +69,7 @@ Figure 2.2 shows how these general areas can be divided differently on the court
 
 **Figure 2.2**
 
-*Shooting zone divisions (Top: FIBA LiveStats; Bottom,: NBA)*
+*Shooting zone divisions (Top: FIBA LiveStats; Bottom: NBA)*
 
 ![Shooting zone divisions (FIBA LiveStats)][img-shootingzones-fifa]
 
@@ -83,15 +84,65 @@ Finding patterns in spatial datasets can be done using clustering algorithms lik
 
 ### 2.2.1 Finding spatial basis vectors using Non-negative Matrix Factorization
 
-Non-negative Matrix Factorization or NMF is a matrix decomposition algorithm that assumes some non-negative matrix V can be approximated by the product of two lower-rank non-negative matrices W and B where as seen in (2.1).
+Non-negative Matrix Factorization or NMF is a matrix decomposition algorithm that assumes some non-negative matrix _V_ can be approximated by the product of two lower-rank non-negative matrices _W_ and _B_ where as seen in (2.1).
 
 ![NMF formula][img-nmf-vwb] (2.1)
 
-The matrix ![NMF data matrix][img-nmf-v] is composed of N data points each of length X, the basis loadings or weight matrix ![NMF weights matrix][img-nmf-w] consists of N non-negative weight vectors, and the basis matrix ![NMF basis vectors][img-nmf-b] contains K basis vectors. Each data point in V can be reconstructed using a combination of W and B. (Miller, 2014)
+The matrix ![NMF data matrix][img-nmf-v] is composed of _N_ data points each of length _X_, the basis loadings or weight matrix  ![NMF weights matrix][img-nmf-w] consists of _N_ non-negative weight vectors, and the basis matrix ![NMF basis vectors][img-nmf-b] contains _K_ basis vectors. Each data point in _V_ can be reconstructed using a combination of _W_ and _B_. (Miller, 2014)
 
-A distinct characteristic of NMF is that it constrains all of its component matrices to be non-negative. Because of this, the resulting basis vectors B tend to be disjoint and exhibit a “parts-based” decomposition that corresponds to frequently occurring patterns in the sample. This has the advantage of avoiding the cancellation phenomenon exhibited by other non-constrained matrix factorization methods like PCA. This restrictive property of NMF also results in sparser and more interpretable basis vectors. (Lee & Seung, 1999)
+A distinct characteristic of NMF is that it constrains all of its component matrices to be non-negative. Because of this, the resulting basis vectors _B_ tend to be disjoint and exhibit a “parts-based” decomposition that corresponds to frequently occurring patterns in the sample. This has the advantage of avoiding the cancellation phenomenon exhibited by other non-constrained matrix factorization methods like PCA. This restrictive property of NMF also results in sparser and more interpretable basis vectors. (Lee & Seung, 1999)
 
-In the case of basketball, using NMF to decompose a field goal dataset makes sense due to the following reasons: first, the field goal matrix—or the collection of field goals at different locations on the court—is always non-negative because it is impossible to attempt a negative number of shots; second, the outputs of NMF correspond intuitively to basketball concepts. The spatial basis vectors in B can be interpreted as disjoint sub-intensities or parts that represent shot-types or shooting zones on the court. Meanwhile, the player weights in W can be used to summarize the spatial shooting habits of individual players inside the spatial basis vectors in B (Miller et al., 2014; Franks et al., 2015).
+In the case of basketball, using NMF to decompose a field goal dataset makes sense due to the following reasons: first, the field goal matrix—or the collection of field goals at different locations on the court—is always non-negative because it is impossible to attempt a negative number of shots; second, the outputs of NMF correspond intuitively to basketball concepts. The spatial basis vectors in _B_ can be interpreted as disjoint sub-intensities or parts that represent shot-types or shooting zones on the court. Meanwhile, the player weights in _W_ can be used to summarize the spatial shooting habits of individual players inside the spatial basis vectors in _B_ (Miller et al., 2014; Franks et al., 2015).
+
+The general steps in applying NMF for deconstructing field goals (Miller et al., 2014;  Franks et al., 2015; Jiao et al., 2020) are:
+
+1. Discretize the court using a regular tessellation into X shooting cells.
+2.  Construct a count matrix _C_ where _C<sub>nx</sub>_ = the number of field goals by player _k_ in cell _x_.
+3. Fit an intensity surface ![][img-nmf-intensity-surface] for each player _k_ over the discretized court.
+4. Construct the data matrix (field goal matrix) ![][img-nmf-fg-matrix] where ![][img-delta-hat-n] has been normalized such that it has a unit volume.
+5. Solve the optimization problem ![][img-nmf-vwb] where W and B are lower-rank matrices and all matrices are non-negative.
+
+To fit the intensity surface of a player’s field goals, Miller et al. (2014) and Franks et al. (2015) modeled them as a Log Gaussian Cox Process (LGCP) after discretizing the court into 1 square foot tiles to gain computational tractability in fitting the LGCP surfaces. Meanwhile, Jiao et al. (2020) used a kernel estimation “which is easier to compute and more accurate in the sense of intensity fitting accuracy”.
+
+Figure 2.3 (Miller et al., 2014) shows a comparison of the resulting basis vectors generated by NMF with LGCP-fitted intensity surfaces using the (a) Kullback-Leibler (KL) and (b) Frobenius loss functions, (c) NMF with a discrete dataset, and (d) PCA with the LGCP-fitted intensity surfaces.
+
+**Figure 2.3**
+
+*Visual comparison of basis resulting from various dimensionality reduction approaches.*
+
+![][img-nmf-comparisons]
+
+*Note:* From “Factorized Point Process Intensities: A Spatial Analysis of Professional Basketball,” by A. Miller et al., 2014, *Proceedings of The 31st International Conference on Machine Learning (ICML14)*, Beijing, China, June 22-24, 2014. Journal of Machine Learning Research: W&CP 32: 235-243.
+
+The KL-based NMF resulted in a “more spatially diverse basis” compared to the Frobenius-based one which focused on “high-intensity areas near the basket” at the expense of other areas on the court. This can be attributed to the difference between the KL loss function—which includes a log ratio term that disallows large ratios between the original and reconstructed matrices—and the Frobenius loss function—which does not include a log ratio term and thus only disallows large differences. Meanwhile, the PCA basis vectors were uninterpretable as parts of the court due to the bases being unconstrained real numbers. The corner three-point feature that was salient in the LGCP-NMF decompositions appeared in several PCA vectors with positive and negative values that exhibited the cancelation phenomenon with PCA that NMF avoids (Miller et al., 2014).  Subsequent studies using NMF (Franks et al., 2015; Sandholtz et al., 2019; Jiao et al., 2020) also used the KL loss function.
+
+The LGCP-NMF method discovered a “shots-based decomposition” of NBA players where the resulting basis vectors B corresponded to “visually interpretable shot types”—one basis corresponded to corner three-point shots, another to wing three-point shots, and yet another to top of the key three point shots, etc.—while the player specific basis weights in W provided a concise characterization of  player’s offensive habits. The weight wnk can be interpreted as the “amount player k takes shot type k”. (Miller et al., 2014) 
+
+Miller et al. (2014) also showed that, after a certain K, the low-rank NMF reconstructions had better predictive performance than independent LGCPs for player data with 10% of the shots held out. Figure 2.4 (Miller et al., 2014) shows the predictive likelihood for independent LGCP and LGCP-NMF at varying K.
+
+**Figure 2.4**
+
+*Predictive Likelihood (10-fold cv) of LGCP and LGCP-NMF at varying K* 
+
+![][img-nmf-predictive]
+
+*Note:* From “Factorized Point Process Intensities: A Spatial Analysis of Professional Basketball,” by A. Miller et al., 2014, *Proceedings of The 31st International Conference on Machine Learning (ICML14)*, Beijing, China, June 22-24, 2014. Journal of Machine Learning Research: W&CP 32: 235-243.
+
+The K values with better predictive performance can be used as the K values for the NMF decomposition. Miller et al. (2014) and Jiao  et al.(2014) used K=10 while Franks et al. (2015) used K=6. 
+
+Aside from using a lower number of bases, Franks et al. (2015) also discarded a residual basis from the six computed by NMF since, unlike PCA, NMF is not mean-centered and a residual basis appears regardless of the value of K. This residual basis captures the positive intensities outside the support of the relevant bases as is therefore not used in the analysis. Figure 2.5 (Franks et al., 2015) shows the spatial bases  identified using LGCP-NMF with K=6.
+
+Similar to Miller et al. (2014), Franks et al. (2015) also arrived at a “shot-based decomposition of NBA players” where the bases corresponded to shots in the restricted area (Basis 1), shots from the rest of the paint (Basis 2), mid-range shots (Basis 3), corner three-point shots (Basis 4), and center three-point shots (Basis 5).
+
+**Figure 2.4**
+
+*The basis vectors and the residual basis using LGCP-NMF with KL loss function and K=6*
+
+![][img-basis-franks]
+
+*Note:* From “Characterizing the Spatial Structure of Defensive Skill in Professional Basketball,” by A. Franks et al., 2015, *The Annals of Applied Statistics*, 2015, Vol. 9, No. 1, 94–121.
+
+The spatial basis and weights matrices generated by NMF have applications beyond simply providing court divisions and an approximation of player shooting tendencies. They have been used in conjunction with other models to “estimate the probability of a made shot for each point in the offensive half court for each individual player” (Miller et al., 2014), “to characterize how players affect both shooting frequency and efficiency of the player they are guarding” (Franks et al., 2015), to study the “optimal way to allocate shots within a lineup” and “measure how efficiently a lineup adheres to optimal allocative efficiency” (Sandholtz et al., 2019), and the “association between shooting frequency and accuracy” (Jiao et al., 2020).
 
 
 ### 2.2.2 Grouping similar players based on shooting characteristics
@@ -173,6 +224,12 @@ In the case of basketball, using NMF to decompose a field goal dataset makes sen
 [img-shootingzones-fifa]: images/image48.png "Shooting zone divisions (FIBA LiveStats)"
 [img-shootingzones-nba]: images/image50.png "Shooting zone divisions (NBA)"
 [img-nmf-vwb]: images/image1.png "NMF formula"
-[img-nmf-v]: images/image2.png "NMF matrix"
+[img-nmf-v]: images/image2.png "NMF data matrix"
 [img-nmf-w]: images/image3.png "NMF weights matrix"
 [img-nmf-b]: images/image4.png "NMF basis vector"
+[img-nmf-intensity-surface]: images/image5.png "NMF intensity surface"
+[img-nmf-fg-matrix]: images/image6.png "NMF field goal matrix"
+[img-delta-hat-n]: images/image7.png "delta hat n"
+[img-nmf-comparisons]: images/image46.png "Visual comparison of basis resulting from various dimensionality reduction approaches."
+[img-nmf-predictive]: images/image51.png "Predictive Likelihood (10-fold cv) of LGCP and LGCP-NMF at varying K"
+[img-basis-franks]: images/image52.png "The basis vectors and the residual basis using LGCP-NMF with KL loss function and K=6"
