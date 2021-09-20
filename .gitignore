@@ -1,5 +1,6 @@
 # code
-
+code/**/.ipynb_checkpoints/*
+code/**/.Rhistory
 
 # data
 data/spatial-analysis-shooting-philippine-basketball-pintor.gpkg-*

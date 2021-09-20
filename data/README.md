@@ -24,3 +24,8 @@
 - includes point vector layer of field goals (same as CSV above)
 - includes vector layer of court 
 - includes vector layer of typical court divisions (hot zones)
+
+## fg_kde.csv and fg_kde-all.csv
+- CSV version of the field goal KDE grid
+  - fg_kde = players with FGA >= 28
+  - fg_kde-all = all players
