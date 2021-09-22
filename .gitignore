@@ -1,3 +1,6 @@
+# general
+_draft/**
+
 # code
 code/**/.ipynb_checkpoints/*
 code/**/.Rhistory
