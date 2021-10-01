@@ -1,0 +1,14 @@
+# general
+_draft/**
+**_backup-**
+
+# code
+code/**/.ipynb_checkpoints/*
+code/**/.Rhistory
+
+# data
+data/spatial-analysis-shooting-philippine-basketball-pintor.gpkg-*
+
+
+#manuscript
+manuscript/draft.md
