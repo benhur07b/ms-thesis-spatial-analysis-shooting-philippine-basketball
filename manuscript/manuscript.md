@@ -1,10 +1,10 @@
-1.         Introduction {#h.j3efbxlfynao .c82 .c55 .c61}
+1.         Introduction {#h.j3efbxlfynao .c90 .c45}
 =======================
 
-1.1        Background {#h.q98swz9jcgvy .c59 .c55}
+1.1        Background {#h.q98swz9jcgvy .c16}
 ---------------------
 
-Basketball is spatial. Any event that occurs during a basketball game—a
+Basketball is spatial. Any event that occurs during a basketball game—a
 made shot, a missed shot, a rebound—has a corresponding spatial or
 spatio-temporal information embedded in it and, one can argue, that
 location oftentimes plays an important role in its occurrence or
@@ -54,31 +54,31 @@ al., 2016).
 Truly, the application of spatial analysis in basketball has added a new
 dimension to how we view the game.
 
-1.2        Basketball analysis in the Philippines {#h.qlge0cpcyxga .c59 .c55}
+1.2        Basketball analysis in the Philippines {#h.qlge0cpcyxga .c16}
 -------------------------------------------------
 
 Advanced and spatial analytics do not seem to be part of mainstream
 basketball analysis in the country as evidenced by the lack of available
 data and information released by popular basketball leagues such as the
 Philippine Basketball Association (PBA), Maharlika Pilipinas Basketball
-League (MPBL), University Athletics Association of the Philippines, and
-National Collegiate Athletics Association (NCAA). Compared with the NBA
-which releases a wide variety of statistics in its Official NBA Stats
-website
-([https://www.nba.com/stats/](https://www.google.com/url?q=https://www.nba.com/stats/&sa=D&source=editors&ust=1632363110965000&usg=AOvVaw2Yf9lHnfFWQgxQpSz3NeX9))
+League (MPBL), University Athletics Association of the Philippines
+(UAAP), and National Collegiate Athletics Association (NCAA). Compared
+to the NBA which releases a wide variety of statistics in its Official
+NBA Stats website
+([https://www.nba.com/stats/](https://www.google.com/url?q=https://www.nba.com/stats/&sa=D&source=editors&ust=1634968640581000&usg=AOvVaw03plyquynZq8aqK49XIu2J))
 and in other sites such as Basketball Reference
-([https://www.basketball-reference.com/](https://www.google.com/url?q=https://www.basketball-reference.com/&sa=D&source=editors&ust=1632363110966000&usg=AOvVaw2IHlrFczz-6uRmy3AQFC1J)),
+([https://www.basketball-reference.com/](https://www.google.com/url?q=https://www.basketball-reference.com/&sa=D&source=editors&ust=1634968640581000&usg=AOvVaw3hA7ytW7P0McZC-eSXbzXT)),
 it’s hard to find any publicly available advanced statistics websites
 for Philippine basketball—one example is HumbleBola
-([https://twitter.com/humblebola\_](https://www.google.com/url?q=https://twitter.com/humblebola_&sa=D&source=editors&ust=1632363110966000&usg=AOvVaw2OXpyuHL_B9BWOlf9g9s2P))
+([https://twitter.com/humblebola\_](https://www.google.com/url?q=https://twitter.com/humblebola_&sa=D&source=editors&ust=1634968640581000&usg=AOvVaw1I7eCxtsOBfEbajuCu0eEI))
 although at the time of this writing, their website
-([https://humblebola.com](https://www.google.com/url?q=https://humblebola.com&sa=D&source=editors&ust=1632363110967000&usg=AOvVaw3kUnQpdStMxyEPa74xgNmr))
+([https://humblebola.com](https://www.google.com/url?q=https://humblebola.com&sa=D&source=editors&ust=1634968640582000&usg=AOvVaw2mdX2RvSP-EX9dnkpW8bxX))
 is no longer available. Meanwhile, websites of mainstream media outlets
 such as ABS-CBN that cover collegiate basketball leagues and the
 official PBA
-([https://www.pba.ph/stats](https://www.google.com/url?q=https://www.pba.ph/stats&sa=D&source=editors&ust=1632363110990000&usg=AOvVaw2zCA6FtUIIuAkVJTzsdwI0))
+([https://www.pba.ph/stats](https://www.google.com/url?q=https://www.pba.ph/stats&sa=D&source=editors&ust=1634968640582000&usg=AOvVaw1fFw4fcrCSFsUbiqdbX9zE))
 and MPBL
-([https://mpbl.web.geniussports.com/competitions/](https://www.google.com/url?q=https://mpbl.web.geniussports.com/competitions/&sa=D&source=editors&ust=1632363110991000&usg=AOvVaw32fkW8Vvoe-GBuundeVHag))
+([https://mpbl.web.geniussports.com/competitions/](https://www.google.com/url?q=https://mpbl.web.geniussports.com/competitions/&sa=D&source=editors&ust=1634968640583000&usg=AOvVaw3r0r5gst-Pnc4lHErX4Ct8))
 websites only show basic counting and rate statistics such as the number
 of field goals, field goal percentage, etc.
 
@@ -100,7 +100,7 @@ Fighting Maroons Men’s Basketball Team informed me that the team uses a
 combination of videos and statistics in their game preparation and
 analysis.
 
-1.3        Incorporating the spatial nature of shooting {#h.seg7tbd0tmcb .c59 .c55}
+1.3        Incorporating the spatial nature of shooting {#h.seg7tbd0tmcb .c16}
 -------------------------------------------------------
 
 Players shoot differently at different locations on the court and this
@@ -151,11 +151,11 @@ the FG and FG% of the players; and in the third, the 3P and 3P% of the
 players. Table 1.1. summarizes the players and their shooting
 statistics.
 
-![](images/image54.png)
+![](images/image49.png)
 
-![](images/image103.png)
+![](images/image75.png)
 
-![](images/image48.png)
+![](images/image93.png)
 
 Figure 1.1
 
@@ -210,17 +210,17 @@ even though these were 2 different players.
         Figure 1.2 shows the results of the survey while Figure 1.3
 shows a shot chart of the three players.
 
-![](images/image107.png "Chart")
+![](images/image101.png "Chart")
 
 Figure 1.2
 
 The best shooter as chosen by respondents
 
-![](images/image86.png)
+![](images/image97.png)
 
 Figure 1.3
 
-Shot chart of Bright, Juan, and Paul for UAAP S81
+Shot chart of Bright Akhuetie, Juan GDL, and Paul Desiderio for UAAP S81
 
 Bright was almost always selected as the best shooter when the
 respondents were only shown the Field Goal information as was the case
@@ -229,8 +229,6 @@ observation is that Desiderio was selected as the best shooter 25x just
 from name alone but was not selected more than 5x when the respondents
 were shown statistics -- probably a testament to the effect that
 reputation has when assessing players.
-
-* * * * *
 
 It’s also worth noting that a lot of the respondents chose “Someone who
 can make a high percentage of his shots from different areas on the
@@ -291,25 +289,26 @@ UAAP S81
 
         Figure 1.4 shows a Voronoi tessellation of the players’ field
 goals using the mean coordinate of clusters computed using a K-means
-clustering. From these images, the nuances in their shooting styles that
-are not readily apparent from the conventional statistics can be seen.
-Paul’s clusters are fairly symmetrical, Dave has a cluster of shots near
-the basket, while Sean has left and right clusters for shots in the
-paint. These maps show that even though the three players have similar
-shooting statistics, they have, in fact, different habits of shooting.
+clustering with K=8. From these images, the nuances in their shooting
+styles that are not readily apparent from the conventional statistics
+can be seen. Paul’s clusters are fairly symmetrical, Dave has a cluster
+of shots near the basket, while Sean has left and right clusters for
+shots in the paint. These maps show that even though the three players
+have similar shooting statistics, they have, in fact, different habits
+of shooting.
 
-![](images/image82.png)
+![](images/image79.png)
 
-![](images/image56.png)
+![](images/image65.png)
 
-![](images/image98.png)
+![](images/image83.png)
 
 Figure 1.4
 
 Field goal clusters and voronoi of P. Desiderio (top-left), D. Ildefonso
 (top-right), and S. Manganti (bottom) for UAAP S81
 
-1.4        Overview of the research {#h.wgi51f2xh0f6 .c59 .c55}
+1.4        Overview of the research {#h.wgi51f2xh0f6 .c16}
 -----------------------------------
 
 The current state of basketball analysis in the Philippines provides an
@@ -338,7 +337,7 @@ of the UAAP Men’s Basketball Tournament (Season 81) and showcases the
 value of spatial analysis in evaluating teams, players, and winning in
 basketball.
 
-1.5        Research objectives {#h.usdphhj9tl1d .c59 .c55}
+1.5        Research objectives {#h.usdphhj9tl1d .c16}
 ------------------------------
 
 The general goal of this research is to display and highlight the value
@@ -356,7 +355,7 @@ goal, the specific objectives of this research are:
 
         
 
-1.6        Thesis structure {#h.ny5jvyowjrht .c59 .c55}
+1.6        Thesis structure {#h.ny5jvyowjrht .c16}
 ---------------------------
 
 This thesis is divided into five chapters. Chapter 1 provides a
@@ -378,9 +377,9 @@ to the study.
 
 * * * * *
 
- {#h.pgme33fgvwvx .c82 .c55 .c89 .c61}
+ {#h.pgme33fgvwvx .c45 .c76}
 
-2.         Review of Literature {#h.4zcb5wwzdcf9 .c82 .c55 .c61}
+2.         Review of Literature {#h.4zcb5wwzdcf9 .c90 .c45}
 ===============================
 
 A review of methods for quantifying and characterizing basketball
@@ -392,7 +391,7 @@ basketball leagues, looking at the current body of work around the
 spatial analysis of basketball, it becomes apparent that such studies
 are not, if rarely, done in the Philippine context.
 
-2.1        Spatial analysis of Philippine basketball {#h.3wxmvwuznm7u .c59 .c55}
+2.1        Spatial analysis of Philippine basketball {#h.3wxmvwuznm7u .c16}
 ----------------------------------------------------
 
 The use of spatial analytics in mainstream Philippine basketball is not
@@ -420,7 +419,7 @@ the field goal locations, the data was stored in a database and spatial
 metrics were computed and visualized.  Figure 2.1 details the
 CourtVisionPH system.
 
-![](images/image55.png)
+![](images/image106.png)
 
 Figure 2.1
 
@@ -445,7 +444,7 @@ to shooting have grown and newer methods and metrics have been
 introduced. Some of these methods and metrics are discussed in the next
 section.
 
-2.2        Spatial characterization of field goals {#h.fvz4pxlq3j5h .c59 .c55}
+2.2        Spatial characterization of field goals {#h.fvz4pxlq3j5h .c16}
 --------------------------------------------------
 
 Dividing the court into shooting zones or hot zones is a common
@@ -463,7 +462,7 @@ vary.  Figure 2.2 shows how these general areas can be divided
 differently on the court.
 
 +--------------------------------------+--------------------------------------+
-| ![](images/image95.png)              | ![](images/image77.png)              |
+| ![](images/image86.png)              | ![](images/image69.png)              |
 +--------------------------------------+--------------------------------------+
 
 Figure 2.2
@@ -492,7 +491,7 @@ Factorization (NMF) has gained traction in basketball analytics for its
 ability to divide the court into parts and provide an approximation of
 players’ shooting habits in those parts.
 
-### 2.2.1        Finding spatial basis vectors using Non-negative Matrix Factorization {#h.7w1yvkuhm6p8 .c21 .c61}
+### 2.2.1        Finding spatial basis vectors using Non-negative Matrix Factorization {#h.7w1yvkuhm6p8 .c10}
 
 Non-negative Matrix Factorization or NMF is a matrix decomposition
 algorithm that assumes some non-negative matrix V can be approximated by
@@ -558,7 +557,7 @@ the (a) Kullback-Leibler (KL) and (b) Frobenius loss functions, (c) NMF
 with a discrete dataset, and (d) PCA with the LGCP-fitted intensity
 surfaces.
 
-![](images/image59.png)
+![](images/image46.png)
 
 Figure 2.3
 
@@ -602,7 +601,7 @@ LGCPs for player data with 10% of the shots held out. Figure 2.4 (Miller
 et al., 2014) shows the predictive likelihood for independent LGCP and
 LGCP-NMF at varying K.
 
-![](images/image58.png)Figure 2.4
+![](images/image67.png)Figure 2.4
 
 Predictive Likelihood (10-fold cv) of LGCP and LGCP-NMF at varying K
 
@@ -630,7 +629,7 @@ to shots in the restricted area (Basis 1), shots from the rest of the
 paint (Basis 2), mid-range shots (Basis 3), corner three-point shots
 (Basis 4), and center three-point shots (Basis 5).
 
-![](images/image61.png)
+![](images/image91.png)
 
 Figure 2.4
 
@@ -654,7 +653,7 @@ optimal allocative efficiency” (Sandholtz et al., 2019), and the
 “association between shooting frequency and accuracy” (Jiao et al.,
 2020).
 
-#### 2.2.1.1        Finding the optimal number of basis or factorization rank {#h.m5ufs6f4z63y .c21 .c61}
+#### 2.2.1.1        Finding the optimal number of basis or factorization rank {#h.m5ufs6f4z63y .c10}
 
 The number of basis vectors or factorization rank (K) is a crucial
 parameter in NMF. The optimal number of basis vectors will allow the
@@ -676,7 +675,7 @@ permuted or random data and suggested that K be considered as the
 smallest value where the decrease in RSS computed from the data is lower
 than the decrease in RSS computed from random data.
 
-### 2.2.2        Grouping similar players based on shooting characteristics {#h.bmie668ipzal .c21 .c61}
+### 2.2.2        Grouping similar players based on shooting characteristics {#h.bmie668ipzal .c10}
 
         Although individual players shoot differently, players with
 similar roles tend to have similar shooting characteristics. This is
@@ -710,7 +709,7 @@ Symmetry was enforced in the nearest-neighbors relationship by assuming
 that “if player j is a neighbor of player l then player l is also a
 neighbor of player j”.
 
-2.3        Spatial metrics of shooting {#h.7sse57t0ps4q .c59 .c55}
+2.3        Spatial metrics of shooting {#h.7sse57t0ps4q .c16}
 --------------------------------------
 
 Several metrics have been proposed that measure shooting effectiveness
@@ -723,7 +722,7 @@ lineup, and even hierarchical and high-resolution data models of
 shooting. Some examples of these metrics are discussed in the next
 sections.
 
-### 2.3.1        Spread and Range {#h.qeugmohlzeh4 .c21 .c61}
+### 2.3.1        Spread and Range {#h.qeugmohlzeh4 .c10}
 
 Spread and Range, introduced by Goldsberry (2012) in the paper
 CourtVision: CourtVision: New Visual and Spatial Analytics for the NBA,
@@ -796,7 +795,7 @@ similar to hills and valleys than it is to a plain.
 
 * * * * *
 
-### 2.3.2        Spatial Shooting Effectiveness and Points Over League Average {#h.83y0oalghadf .c21 .c61}
+### 2.3.2        Spatial Shooting Effectiveness and Points Over League Average {#h.83y0oalghadf .c10}
 
         Instead of comparing a player’s scoring ability at different
 locations on the court to a single value, Shortridge et al. (2014)
@@ -848,7 +847,7 @@ shots” (Shortridge et al., 2014).
 Figure 2.5 shows a comparison between the raw FG% and the EB-estimated
 FG% in Shortridge et al. (2014).
 
-![](images/image72.png)
+![](images/image71.png)
 
 Figure 2.5
 
@@ -936,7 +935,7 @@ based on the spatial distribution of his field goal attempts or locally
 on a per-cell basis which enables it to be mapped and show the spatial
 distribution of the metric.
 
-### 2.3.3        Lineups Points Lost {#h.hq1mrfem98e .c21 .c61}
+### 2.3.3        Lineups Points Lost {#h.hq1mrfem98e .c10}
 
         Sandholtz (2019) studied shooting efficiency as an optimal
 allocation problem by comparing the shooter's FG% to his field goal
@@ -967,7 +966,7 @@ over-utilization. A +4 means the best shooter took the fewest shots in
 the area while a -4 means the worst shooter took the most shots in the
 area.
 
-![](images/image68.png)
+![](images/image105.png)
 
 Figure 2.6
 
@@ -985,7 +984,7 @@ shot clock, or clutch situations. Strict adherence to LPL minimizing
 could also lead to a more predictable offense and thus make it easier to
 defend.
 
-2.4        Hierarchical and high-resolution data models {#h.a8zgnfhu55dx .c59 .c55}
+2.4        Hierarchical and high-resolution data models {#h.a8zgnfhu55dx .c16}
 -------------------------------------------------------
 
 Although not used in this study, hierarchical models have also been
@@ -1023,7 +1022,7 @@ and studied the effects that defenders had on shot trajectories.
 
 * * * * *
 
-2.5        Summary {#h.k7kzl6f7azlk .c59 .c55}
+2.5        Summary {#h.k7kzl6f7azlk .c16}
 ------------------
 
 The research identified the following gaps in the literature:
@@ -1054,16 +1053,16 @@ The research identified the following gaps in the literature:
 
     * * * * *
 
-3.         Methodology {#h.d8lsj2uf716c .c55 .c61 .c82}
+3.         Methodology {#h.d8lsj2uf716c .c90 .c45}
 ======================
 
-3.1        Scope and delimitation {#h.4jxr5y8m75l3 .c59 .c55}
+3.1        Scope and delimitation {#h.4jxr5y8m75l3 .c16}
 ---------------------------------
 
 The research dataset included the field goals from the elimination round
 games in the UAAP MBT Season 81 (AY 2018-2019). The data was sourced
 from FIBA LiveStats shot charts available online at
-[https://www.fibalivestats.com](https://www.google.com/url?q=https://www.fibalivestats.com&sa=D&source=editors&ust=1632363111202000&usg=AOvVaw2jvJEdXkXlVxQUYYhgEr46).
+[https://www.fibalivestats.com](https://www.google.com/url?q=https://www.fibalivestats.com&sa=D&source=editors&ust=1634968640685000&usg=AOvVaw1myJsYDrXeWKepm0EjMc8U).
 The information included in the dataset are:
 
 -   Location (x, y coordinates on the basketball court)
@@ -1085,12 +1084,12 @@ whether the player is defended or not—were not considered in this
 research but may be the subject of further research into hierarchical
 spatial models of shooting in the UAAP.
 
-3.2        The data {#h.hu7l8ps6jkz9 .c59 .c55}
+3.2        The data {#h.hu7l8ps6jkz9 .c16}
 -------------------
 
 Shot charts for UAAP Season 81 are available online from the FIBA
 LiveStats website at
-[https://www.fibalivestats.com/u/UAAP/\<gameid\>/sc.html](https://www.google.com/url?q=https://www.fibalivestats.com/u/UAAP/&sa=D&source=editors&ust=1632363111204000&usg=AOvVaw3mQRBKmw0LVvp9PkQsR2NI) where
+[https://www.fibalivestats.com/u/UAAP/\<gameid\>/sc.html](https://www.google.com/url?q=https://www.fibalivestats.com/u/UAAP/&sa=D&source=editors&ust=1634968640687000&usg=AOvVaw2SUWAUGWmiJ46d9kiDXaVo) where
 \<gameid\> is the identification code for a specific game during the
 season.
 
@@ -1111,7 +1110,7 @@ Figure 3.1 shows an example of the shot chart and underlying data.
 
 * * * * *
 
-![](images/image53.png)
+![](images/image57.png)
 
 Figure 3.1
 
@@ -1120,7 +1119,7 @@ Shot chart of NU vs UST UAAP MBT Game (Season 81)
 Note: The \<gameid\> is 936275. The field goal locations for both teams
 are mapped to the whole court (left side) and the underlying data (right
 side) is available as HTML text. Source:
-[https://www.fibalivestats.com/u/UAAP/936275/sc.html](https://www.google.com/url?q=https://www.fibalivestats.com/u/UAAP/936275/sc.html&sa=D&source=editors&ust=1632363111207000&usg=AOvVaw0u1daCo82iPkbUlzSpHDYK) 
+[https://www.fibalivestats.com/u/UAAP/936275/sc.html](https://www.google.com/url?q=https://www.fibalivestats.com/u/UAAP/936275/sc.html&sa=D&source=editors&ust=1634968640690000&usg=AOvVaw2QHc50dNI-fBFXRu5u30Pi) 
 
 To get the data from FIBA LiveStats shot charts and make it useable for
 the purpose of the study, a web scraper was developed in Python that:
@@ -1146,9 +1145,9 @@ information mentioned in the previous section.
 online at:
 
 -   FIBA LiveStats Shot Chart Scraper -
-    [https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/code](https://www.google.com/url?q=https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/code&sa=D&source=editors&ust=1632363111208000&usg=AOvVaw1IaaIj5szXE4TY8jy-40F_)
+    [https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/code](https://www.google.com/url?q=https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/code&sa=D&source=editors&ust=1634968640692000&usg=AOvVaw2tGyN2gZ2CvydxwG_5pvIp)
 -   UAAP MBT Season 81 Shot Chart Data -
-    [https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/data](https://www.google.com/url?q=https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/data&sa=D&source=editors&ust=1632363111209000&usg=AOvVaw2ab_gCLLMs8NhJHfzRs3si)
+    [https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/data](https://www.google.com/url?q=https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/data&sa=D&source=editors&ust=1634968640693000&usg=AOvVaw2vK60MNqcO3pH3mr9xVfKj)
 
 Players with less than 28 field goal attempts (or average less than 2
 FGA/game if they played all games) were removed. This left a total of
@@ -1165,7 +1164,7 @@ Figure 3.2 shows a sample of (a) the raw data mapped onto the court and
 (b) the corresponding raw field goal grids.
 
 +--------------------------------------+--------------------------------------+
-| ![](images/image87.png)              | ![](images/image92.png)              |
+| ![](images/image52.png)              | ![](images/image70.png)              |
 +--------------------------------------+--------------------------------------+
 
 Figure 3.2
@@ -1173,7 +1172,7 @@ Figure 3.2
 Map of the field goal (point) dataset and the field goal (discretized)
 grid
 
-3.3        Spatial characterization of field goals using NMF {#h.hxidixtwsflg .c55 .c59}
+3.3        Spatial characterization of field goals using NMF {#h.hxidixtwsflg .c16}
 ------------------------------------------------------------
 
         Non-negative Matrix Factorization (NMF) was used to determine
@@ -1183,7 +1182,7 @@ on the collected field goal dataset.
         The formula for NMF is given in (2.1) and the general steps
 using NMF in basketball is given in Section 2.2.1.
 
-### 3.3.1        Finding the spatial basis and basis loadings {#h.m9syld10hy2c .c21 .c61}
+### 3.3.1        Finding the spatial basis and basis loadings {#h.m9syld10hy2c .c10}
 
          In the study, the court was discretized into 50cm x 50cm cells
 resulting in a 28 x 30 court matrix.
@@ -1221,7 +1220,7 @@ player k:
 areas on the court based on the field goal dataset. W  was then used to
 rank and compare how frequent players take shots from these areas.
 
-### 3.3.2        Grouping similar players based on their shooting habits {#h.rltw23xjsbqn .c21 .c61}
+### 3.3.2        Grouping similar players based on their shooting habits {#h.rltw23xjsbqn .c10}
 
         Aside from ranking and comparing the shooting frequency of
 players, W was also used to group similar players based on their
@@ -1238,7 +1237,7 @@ shooting habit is.
 
 * * * * *
 
-3.4        Spatial metrics of shooting {#h.s7vn7lga9ei7 .c59 .c55}
+3.4        Spatial metrics of shooting {#h.s7vn7lga9ei7 .c16}
 --------------------------------------
 
 Finding the spatial basis vectors that define a field goal dataset is
@@ -1261,7 +1260,7 @@ it shares with eFG% over FG%; but it also holds an advantage over eFG%
 in that it uses a more understandable unit of measure—points per attempt
 instead of percentage.  
 
-### 3.4.1        Modeling scoring ability {#h.mevu463sdijw .c21 .c61}
+### 3.4.1        Modeling scoring ability {#h.mevu463sdijw .c10}
 
 In the study, the offensive half-court was divided into 50cm x 50cm
 shooting cells resulting in a 28 x 30 grid and a player’s scoring
@@ -1379,7 +1378,7 @@ PTSki  = the number of points scored by player k at cell i 
 
 FGAki = the number of field goal attempts off player k at cell i.
 
-### 3.4.2        Spatial Scoring Effectiveness (SScE) {#h.v57qlky8iofg .c21 .c61}
+### 3.4.2        Spatial Scoring Effectiveness (SScE) {#h.v57qlky8iofg .c10}
 
         The metric Spatial Scoring Effectiveness (SScE) which is a
 measure of scoring effectiveness based on the spatial distribution of
@@ -1420,7 +1419,7 @@ the EB-estimate PPA at cell i.
 and used to show the spatial distribution of a player’s SScE—i.e. at
 what areas on the court is a player scoring more or less than expected. 
 
-### 3.4.3        Points Relative to League Average (PRLA) {#h.mfuq6os6amhp .c21 .c61}
+### 3.4.3        Points Relative to League Average (PRLA) {#h.mfuq6os6amhp .c10}
 
         The metric Points Relative to League Average (PRLA) was
 introduced and defined as the difference between the points scored (PTS)
@@ -1458,7 +1457,7 @@ ELPTSki = expected points scored by player k at cell i
         These LPRLA values were then mapped to show the spatial
 distribution of a player’s PRLA.
 
-### 3.4.4        Team, Opponents, and Net SScE and PRLA {#h.cpugczvuu9yo .c21 .c61}
+### 3.4.4        Team, Opponents, and Net SScE and PRLA {#h.cpugczvuu9yo .c10}
 
 For a team m, team-wide SScE and PRLA were introduced and computed by
 applying the SScE and PRLA formulas to the team's entire field goal
@@ -1477,7 +1476,7 @@ their PRLA and OppPRLA. These values indicated the net rating of a team
 at different areas on the court or how much better or worse they scored
 against their opponents at a certain court location.
 
-### 3.4.5        Incorporating player similarities {#h.9jjz24z079a6 .c21 .c61}
+### 3.4.5        Incorporating player similarities {#h.9jjz24z079a6 .c10}
 
         Aside from using the raw points per attempt at cell i to model a
 player’s scoring ability, the study also introduced the estimated local
@@ -1557,7 +1556,7 @@ estimated points was used instead PTSk while for the local PRLA given by
 (3.12), the estimated points at cell i (EsPTSki) was used instead of
 PTSki.
 
-### 3.4.6        Comparison of SScE and PRLA with conventional shooting metrics {#h.u7igbxbk6es6 .c21 .c61}
+### 3.4.6        Comparison of SScE and PRLA with conventional shooting metrics {#h.u7igbxbk6es6 .c10}
 
 To check if the information provided by SScE and PRLA are already found
 in conventional statistics, the correlation between SScE and PRLA with
@@ -1583,12 +1582,7 @@ them.
 Lastly, interviews and surveys of players, coaches, and fans were
 conducted to see if the new metrics made sense to them.
 
-* * * * *
-
-4.         Result and Discussion {#h.vpfstnb4cy8g .c82 .c55 .c61}
-================================
-
-4.1        Case study: the UAAP MBT 2018-2019 (Season 81) {#h.jr32klpy4bm1 .c59 .c55}
+3.5        Case study: the UAAP MBT 2018-2019 (Season 81) {#h.rn8p5aaapdq0 .c16}
 ---------------------------------------------------------
 
 The new metrics introduced above were used to analyze the field goals
@@ -1600,26 +1594,48 @@ Jupyter, 2021), and the BeautifulSoup (Richardson, 2021) and requests
 (Reitz, 2021) libraries.
 
 Analysis and visualization was conducted using R 4.1 (R Core Team, 2021)
-and RStudio (RStudio Team, 2021) with the ebbr (Robinson, 2017), nmf
-(Gaujoux R. and Seoighe C., 2010), sp (Bivand et al., 2013), and weights
-(Pasek, 2012) libraries. Python was also used with numpy (Harris et al.,
-2020), scipy (Virtaten et al., 2020), scikit-learn (Pedragosa, 2011),
-pandas (McKinney, 2010), and matplotlib (Hunter, 2007). Other analysis
-and visualization were done with QGIS 3.20.1 (QGIS.org, 2021).\
+and RStudio (RStudio Team, 2021) with nmf (Gaujoux R. and Seoighe C.,
+2010) library. Python was also used with numpy (Harris et al., 2020),
+scipy (Virtaten et al., 2020), scikit-learn (Pedragosa, 2011), pandas
+(McKinney, 2010), and matplotlib (Hunter, 2007). Other analysis and
+visualization were done with QGIS 3.20.1 (QGIS.org, 2021).\
         The computer used for processing runs on a 64-bit Pop! OS
 operating system with 32GB of RAM, 6GB RTX 2060 graphics card, and
 Intel® Core™ i7-9750H CPU @ 2.60GHz × 12 cores.
 
 The data and code are all available at:
 
-[https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball](https://www.google.com/url?q=https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball&sa=D&source=editors&ust=1632363111294000&usg=AOvVaw0MxCPsncCqV0bGLyzG_2tH)
+[https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball](https://www.google.com/url?q=https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball&sa=D&source=editors&ust=1634968640746000&usg=AOvVaw1Vmh6tlX4cYlHJotFu8Hiw)
 
 * * * * *
 
-### 4.1.1        Conventional shooting statistics {#h.tgecdntvc0k5 .c21 .c61}
+4.         Result and Discussion {#h.vpfstnb4cy8g .c45 .c90}
+================================
+
+4.1        Conventional shooting statistics {#h.tgecdntvc0k5 .c16}
+-------------------------------------------
 
         Table 4.1 shows the conventional shooting statistics (FG%, 2P%,
 3P%, eFG, PPA) of the teams and their opponents during UAAP Season 81.
+
+Table 4.1
+
+Conventional shooting statistics of teams for UAAP Season 81.
+
+2P = 2-point field goals made; 2PA = 2-point field goals attempted; 2P%
+= 2P/2PA
+
+3P = 3-point field goals made; 3PA = 3-point field goals attempted; 3P%
+= 3P/3PA
+
+FG = total field goals made; FGA = total field goals attempted; FG% =
+FG/FGA
+
+eFG = effective field goal percentage = (FG + 0.5\*3P)/FGA
+
+PPA = points per attempt = total points scored / FGA
+
+opp\_\* = statistics by team opponents
 
 +---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+
 | team    | 2P      | 2PA     | 2P%     | 3P      | 3PA     | 3P%     | FG      | FGA     | FG%     |
@@ -1685,12 +1701,8 @@ The data and code are all available at:
 | UST          | 41.3         | 0.826        | 48.2         | 0.964        | -0.138       |
 +--------------+--------------+--------------+--------------+--------------+--------------+
 
-Table 4.1
-
-Conventional shooting statistics of teams for UAAP Season 81
-
 Note: Data includes the UP-UE game without a shot chart/spatial data.
-Check the glossary for the meaning of the statistics.
+Check the glossary (Appendix 1) for the definition of the statistics.
 
 These team-wide conventional shooting statistics provide an overview of
 the shooting performance of teams in Season 81. For example, let’s
@@ -1707,6 +1719,26 @@ lagging behind ranking 6th (0.942).
 Table 4.2 shows the conventional shooting statistics (FG, 2P, 3P, EFG,
 PPA) of the top three players per team with the most number of field
 goal attempts during UAAP Season 81.
+
+Table 4.2
+
+Conventional shooting statistics of top 3 players with the most field
+goal attempts per team  for UAAP Season 81
+
+2P = 2-point field goals made; 2PA = 2-point field goals attempted; 2P%
+= 2P/2PA
+
+3P = 3-point field goals made; 3PA = 3-point field goals attempted; 3P%
+= 3P/3PA
+
+FG = total field goals made; FGA = total field goals attempted; FG% =
+FG/FGA
+
+%FG = percentage of team’s FGA that the player takes
+
+eFG = effective field goal percentage = (FG + 0.5\*3P)/FGA
+
+PPA = points per attempt = total points scored / FGA
 
 +-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
 | player    | team      | FG        | FGA       | FG%       | %FG       | eFG       | PPA       |
@@ -1844,13 +1876,8 @@ goal attempts during UAAP Season 81.
 | Cansino   |           |           |           |           |           |           |           |
 +-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
 
-Table 4.2
-
-Conventional shooting statistics of top 3 players with the most field
-goal attempts per team  for UAAP Season 81
-
 Note: Data includes the UP-UE game without a shot chart/spatial data.
-Check the glossary for the meaning of the statistics.
+Check the glossary (Appendix 1) for the definition of the statistics.
 
 An interesting thing to note in Table 4.2 is the distribution of field
 goals by the top three players with the most number of attempts per
@@ -1871,7 +1898,8 @@ shown in Tables 4.1 and 4.2 are, they still do nothing to give insight
 as to how these teams and players performed at specific areas on the
 court. For that, we go to the spatial shooting statistics.
 
-### 4.1.2        The spatial field goal dataset {#h.sx42oh7gvnos .c21 .c61}
+4.2        The spatial field goal dataset {#h.sx42oh7gvnos .c16}
+-----------------------------------------
 
         To recap, the raw data extracted from FIBA LiveStats included
 7619 FGA distributed among 55 games (1 missing game; 1st game of the
@@ -1886,43 +1914,43 @@ left a total of 7105 FGA distributed among 82 unique players.\
 corresponding field goal grids for each of the UAAP teams.
 
 +--------------------------------------------------------------------------+
-| ![](images/image71.png)                                                  |
+| ![](images/image98.png)                                                  |
 |                                                                          |
 | ADMU                                                                     |
 +--------------------------------------------------------------------------+
-| ![](images/image94.png)                                                  |
+| ![](images/image100.png)                                                 |
 |                                                                          |
 | ADU                                                                      |
 +--------------------------------------------------------------------------+
-| ![](images/image97.png)                                                  |
+| ![](images/image107.png)                                                 |
 |                                                                          |
 | DLSU                                                                     |
 +--------------------------------------------------------------------------+
-| ![](images/image45.png)                                                  |
+| ![](images/image74.png)                                                  |
 |                                                                          |
 | FEU                                                                      |
 +--------------------------------------------------------------------------+
-| ![](images/image100.png)                                                 |
+| ![](images/image60.png)                                                  |
 |                                                                          |
 | NU                                                                       |
 +--------------------------------------------------------------------------+
-| ![](images/image62.png)                                                  |
+| ![](images/image78.png)                                                  |
 |                                                                          |
 | UE                                                                       |
 +--------------------------------------------------------------------------+
-| ![](images/image76.png)                                                  |
+| ![](images/image55.png)                                                  |
 |                                                                          |
 | UP                                                                       |
 +--------------------------------------------------------------------------+
-| ![](images/image101.png)                                                 |
+| ![](images/image87.png)                                                  |
 |                                                                          |
 | UST                                                                      |
 +--------------------------------------------------------------------------+
 
 Figure 4.1
 
-Maps of the team field goal (point) dataset and the team field goal
-(discretized) grid
+Maps of the team field goal (point) datasets and the team field goal
+(discretized) grids
 
         The maps in Figure 4.1 already provide more nuance and
 information about the shooting tendencies of UAAP teams compared to the
@@ -1939,19 +1967,19 @@ points scored by each team. Figure 4.2 shows the Range maps of the UAAP
 teams.
 
 +--------------------------------------+--------------------------------------+
-| ![](images/image79.png)              | ![](images/image102.png)             |
+| ![](images/image68.png)              | ![](images/image103.png)             |
 |                                      |                                      |
 | ADMU                                 | ADU                                  |
 +--------------------------------------+--------------------------------------+
-| ![](images/image85.png)              | ![](images/image47.png)              |
+| ![](images/image61.png)              | ![](images/image66.png)              |
 |                                      |                                      |
 | DLSU                                 | FEU                                  |
 +--------------------------------------+--------------------------------------+
-| ![](images/image88.png)              | ![](images/image63.png)              |
+| ![](images/image59.png)              | ![](images/image76.png)              |
 |                                      |                                      |
 | NU                                   | UE                                   |
 +--------------------------------------+--------------------------------------+
-| ![](images/image70.png)              | ![](images/image65.png)              |
+| ![](images/image62.png)              | ![](images/image81.png)              |
 |                                      |                                      |
 | UP                                   | UST                                  |
 +--------------------------------------+--------------------------------------+
@@ -1980,7 +2008,8 @@ scoring.
 The next sections will show spatial basis vectors and the SScE and PRLA
 metrics computed from the spatial field goal dataset.
 
-### 4.1.3        The spatial basis vectors of field goals {#h.jkirk2pbgpof .c21 .c61}
+4.3        The spatial basis vectors of field goals {#h.jkirk2pbgpof .c16}
+---------------------------------------------------
 
 Using the spatial field goal dataset, the spatial basis vectors and
 their corresponding basis weights were computed using the NMF formula
@@ -1991,15 +2020,15 @@ graphs of the different measures at varying values of K (1-6, 1-10,
 1-15) using the Kullback-Leibler model at 30 runs and using a random
 seed of 42.
 
-![](images/image67.png)
+![](images/image63.png)
 
 ​(a) K=1-6, model=KL, run=30, seed=42, y=random data
 
-![](images/image46.png)
+![](images/image73.png)
 
 ​(b) K=1-10, model=KL, run=30, seed=42, y=random data
 
-![](images/image99.png)
+![](images/image92.png)
 
 ​(c) K=1-15, model=KL, run=30, seed=42, y=random data
 
@@ -2016,7 +2045,7 @@ Next, the different models and initialization modes were compared.
 Figure 4.4 shows the comparison of the measures of the Kullback-Leibler
 and Frobenius models using the same parameters as above.
 
-![](images/image89.png)
+![](images/image54.png)
 
 Figure 4.4
 
@@ -2031,31 +2060,31 @@ combinations of K, model, solver, and initialization methods.
 
 * * * * *
 
-![](images/image51.png)
+![](images/image104.png)
 
 ​(a) Kullback-Leibler, K=3, solver=multiplicative update, init=None
 
-![](images/image90.png)
+![](images/image64.png)
 
 ​(b) Kullback-Leibler, K=3, solver=multiplicative update, init=nndsvda
 
-![](images/image75.png)
+![](images/image84.png)
 
 ​(c) Frobenius, K=3, solver=multiplicative update, init=None
 
-![](images/image74.png)
+![](images/image99.png)
 
 ​(d) Frobenius, K=3, solver=multiplicative update, init=nndsvda
 
-![](images/image60.png)
+![](images/image77.png)
 
 ​(e) Frobenius, K=3, solver=coordinate descent, init=None
 
-![](images/image60.png)
+![](images/image77.png)
 
 ​(f) Frobenius, K=3, solver=coordinate descent, init=nndsvd
 
-![](images/image81.png)
+![](images/image85.png)
 
 ​(g) Frobenius, K=3, solver=coordinate descent, init=nndsvda
 
@@ -2065,31 +2094,31 @@ Resulting basis vectors from NMF using K = 3; model = Kullback-Leibler
 or Frobenius; solver = coordinate descent or multiplicative update; and
 init = None, nndsvd, or nndsvda
 
-![](images/image78.png)
+![](images/image48.png)
 
 ​(a) Kullback-Leibler, K=4, solver=multiplicative update, init=None
 
-![](images/image73.png)
+![](images/image53.png)
 
 ​(b) Kullback-Leibler, K=4, solver=multiplicative update, init=nndsvda
 
-![](images/image83.png)
+![](images/image102.png)
 
 ​(c) Frobenius, K=4, solver=multiplicative update, init=None
 
-![](images/image105.png)
+![](images/image94.png)
 
 ​(d) Frobenius, K=4, solver=multiplicative update, init=nndsvda
 
-![](images/image104.png)
+![](images/image51.png)
 
 ​(e) Frobenius, K=4, solver=coordinate descent, init=None
 
-![](images/image57.png)
+![](images/image80.png)
 
 ​(f) Frobenius, K=4, solver=coordinate descent, init=nndsvd
 
-![](images/image66.png)
+![](images/image72.png)
 
 ​(g) Frobenius, K=4, solver=coordinate descent, init=nndsvda
 
@@ -2099,31 +2128,31 @@ Resulting basis vectors from NMF using K = 4; model = Kullback-Leibler
 or Frobenius; solver = coordinate descent or multiplicative update; and
 init = None, nndsvd, or nndsvda
 
-![](images/image80.png)
+![](images/image95.png)
 
 ​(a) Kullback-Leibler, K=5, solver=multiplicative update, init=None
 
-![](images/image91.png)
+![](images/image45.png)
 
 ​(b) Kullback-Leibler, K=5, solver=multiplicative update, init=nndsvda
 
-![](images/image84.png)
+![](images/image89.png)
 
 ​(c) Frobenius, K=5, solver=multiplicative update, init=None
 
-![](images/image106.png)
+![](images/image47.png)
 
 ​(d) Frobenius, K=5, solver=multiplicative update, init=nndsvda
 
-![](images/image69.png)
+![](images/image82.png)
 
 ​(e) Frobenius, K=5, solver=coordinate descent, init=None
 
-![](images/image49.png)
+![](images/image56.png)
 
 ​(f) Frobenius, K=5, solver=coordinate descent, init=nndsvd
 
-![](images/image52.png)
+![](images/image96.png)
 
 ​(g) Frobenius, K=5, solver=coordinate descent, init=nndsvda
 
@@ -2135,8 +2164,9 @@ init = None, nndsvd, or nndsvda
 
 * * * * *
 
-The following observations were made based on the outputs of different
-combinations of K, model, solver, and initialization methods:
+The following observations^[[a]](#cmnt1)^ were made based on the outputs
+of different combinations of K, model, solver, and initialization
+methods:
 
 1.  The resulting basis vectors are more or less similar for the same
     value of K regardless of the model, solver, and
@@ -2273,7 +2303,7 @@ most field goal attempts from UAAP Season 81
 
 Note: The dataset of normalized basis weights for all players can be
 found at:
-[https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/blob/main/outputs/nmf/spatial-basis/nmf\_basis-weights-normalized.csv](https://www.google.com/url?q=https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/blob/main/outputs/nmf/spatial-basis/nmf_basis-weights-normalized.csv&sa=D&source=editors&ust=1632363111793000&usg=AOvVaw3SGAhosr2Am3zBHrov9tW4)
+[https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/blob/main/outputs/nmf/spatial-basis/nmf\_basis-weights-normalized.csv](https://www.google.com/url?q=https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/blob/main/outputs/nmf/spatial-basis/nmf_basis-weights-normalized.csv&sa=D&source=editors&ust=1634968641101000&usg=AOvVaw0_1TzxFS8g77gHGgZFSH13)
 
 Highlighted values in Table 4.3 indicate weights that are greater than
 the mean for the corresponding spatial basis and reveal the general type
@@ -2295,7 +2325,8 @@ of shooters:
         These player types correspond to general intuitions about player
 shooting habits while also providing more context.
 
-### 4.1.4        Groups of players with similar shooting habits {#h.mark45p6dubh .c21 .c61}
+4.4        Groups of players with similar shooting habits {#h.mark45p6dubh .c16}
+---------------------------------------------------------
 
 Players with similar shooting habits were determined by computing the
 Euclidean distance of the player basis weights. Using this distance, a
@@ -2304,94 +2335,119 @@ neighbor of player l, it is assumed that player l is also a neighbor of
 player k to enforce symmetry. Table 4.4 shows the nearest neighbors of
 the top 20 players with the most field goal attempts in UAAP Season 81.
 
-+--------------------------------------+--------------------------------------+
-| Player                               | Similar Players                      |
-+--------------------------------------+--------------------------------------+
-| A. Pasaol                            | A. Diputado, P. Manalang, W.         |
-|                                      | Navarro, R. Escoto, C. Conner, T.    |
-|                                      | Ravena, J. Manzo, Ja. Gomez de Liaño |
-+--------------------------------------+--------------------------------------+
-| A. Melecio                           | R. Subido, D. Ildefonso, Ju. Gomez   |
-|                                      | de Liaño, T. Tio, A. Caracut, H.     |
-|                                      | Cani, J. Varilla, J. Manuel          |
-+--------------------------------------+--------------------------------------+
-| R. Subido                            | A. Melecio, K. Zamora, D. Dario, T.  |
-|                                      | Tio, A. Inigo, J. Mendoza, J.        |
-|                                      | Varilla, A. Wong                     |
-+--------------------------------------+--------------------------------------+
-| D. Ildefonso                         | A. Melecio, J. Lastimosa, C. Conner, |
-|                                      | Ju. Gomez de Liaño, P. Desiderio, M. |
-|                                      | Nieto, S. Manganti, W. Navarro, C.   |
-|                                      | Vito, J. Cullar, F. Serrano          |
-+--------------------------------------+--------------------------------------+
-| J. Ahanmisi                          | T. Tio, J. Gallego, A. Inigo, I.     |
-|                                      | Batalier, A. Caracut, W. Comboy      |
-+--------------------------------------+--------------------------------------+
-| Ju. Gomez de Liaño                   | A. Melecio, C. Conner, D. Ildefonso, |
-|                                      | J. Espeleta, P. Desiderio, S.        |
-|                                      | Manganti, J. Clemente, M. Aquino, H. |
-|                                      | Cani, J. Varilla, J. Parker, J.      |
-|                                      | Manuel                               |
-+--------------------------------------+--------------------------------------+
-| B. Akhuetie                          | V. Magbuhos, D. Murrell, S. Akomo,   |
-|                                      | A. Kouame, B. Ebona, P. Orizu        |
-+--------------------------------------+--------------------------------------+
-| P. Desiderio                         | J. Lastimosa, D. Ildefonso, Ju.      |
-|                                      | Gomez de Liaño, M. Nieto, S.         |
-|                                      | Manganti, J. Clemente, D. Dario, A.  |
-|                                      | Inigo, C. Vito, J. Manuel, F.        |
-|                                      | Serrano                              |
-+--------------------------------------+--------------------------------------+
-| M. Lee                               | J. Go, E. Mojica, K. Tuffin, D. Yu,  |
-|                                      | B. Bienes, A. Asistio                |
-+--------------------------------------+--------------------------------------+
-| S. Manganti                          | D. Ildefonso, Ju. Gomez de Liaño, P. |
-|                                      | Desiderio, A. Inigo, W. Comboy, J.   |
-|                                      | Manuel, F. Serrano                   |
-+--------------------------------------+--------------------------------------+
-| J. Clemente                          | M. Maloles, Ju. Gomez de Liaño, P.   |
-|                                      | Desiderio, M. Nieto, D. Dario, C.    |
-|                                      | Vito, J. Varilla                     |
-+--------------------------------------+--------------------------------------+
-| J. Baltazar                          | C. Catapusan, L. Gonzales, J.        |
-|                                      | Sinclair, P. Sarr, L. Santillian, I. |
-|                                      | Batalier, M. Dyke, R. Escoto         |
-+--------------------------------------+--------------------------------------+
-| P. Sarr                              | I. Gaye, J. Sinclair, J. Baltazar,   |
-|                                      | L. Santillian, M. Dyke, A. Stockton, |
-|                                      | R. Escoto                            |
-+--------------------------------------+--------------------------------------+
-| L. Santillian                        | J. Baltazar, P. Sarr, R. Verano, M.  |
-|                                      | Dyke, R. Escoto, J. Cullar           |
-+--------------------------------------+--------------------------------------+
-| T. Ravena                            | A. Pasaol, I. Go, W. Navarro, P.     |
-|                                      | Manalang, J. Manzo                   |
-+--------------------------------------+--------------------------------------+
-| P. Manalang                          | A. Pasaol, J. Lastimosa, I. Go, W.   |
-|                                      | Navarro, T. Ravena, A. Tolentino     |
-+--------------------------------------+--------------------------------------+
-| A. Kouame                            | V. Magbuhos, S. Camacho, B.          |
-|                                      | Akhuetie, D. Murrell, J. Manzo, S.   |
-|                                      | Ildefonso                            |
-+--------------------------------------+--------------------------------------+
-| A. Caracut                           | A. Melecio, L. Gonzales, J.          |
-|                                      | Ahanmisi, T. Tio, J. Gallego, I.     |
-|                                      | Batalier, W. Comboy, R. Verano, J.   |
-|                                      | Manuel                               |
-+--------------------------------------+--------------------------------------+
-| H. Cani                              | A. Melecio, J. Espeleta, Ju. Gomez   |
-|                                      | de Liaño, J. Varilla, J. Parker, J.  |
-|                                      | Manuel                               |
-+--------------------------------------+--------------------------------------+
-| W. Comboy                            | J. Ahanmisi, S. Manganti, G.         |
-|                                      | Mamuyac, A. Inigo, A. Caracut, J.    |
-|                                      | Manuel                               |
-+--------------------------------------+--------------------------------------+
-
 Table 4.4
 
 Top 20 players with the most field goal attempts and the players with
 similar shooting habits
+
++--------------------------+--------------------------+--------------------------+
+| \#                       | Player                   | Similar Players          |
++--------------------------+--------------------------+--------------------------+
+| 1                        | A. Pasaol                | A. Diputado, W. Navarro, |
+|                          |                          | P. Manalang, R. Escoto,  |
+|                          |                          | C. Conner, T. Ravena, J. |
+|                          |                          | Manzo, Ja. Gomez de      |
+|                          |                          | Liaño                    |
++--------------------------+--------------------------+--------------------------+
+| 2                        | A. Melecio               | J. Manuel, Ju. Gomez de  |
+|                          |                          | Liaño, J. Varilla, D.    |
+|                          |                          | Ildefonso, H. Cani, R.   |
+|                          |                          | Subido, A. Caracut, W.   |
+|                          |                          | Comboy, M. Aquino        |
++--------------------------+--------------------------+--------------------------+
+| 3                        | R. Subido                | J. Mendoza, A. Wong, A.  |
+|                          |                          | Melecio, J. Varilla, D.  |
+|                          |                          | Dario, K. Zamora, T.     |
+|                          |                          | Tio, A. Inigo            |
++--------------------------+--------------------------+--------------------------+
+| 4                        | D. Ildefonso             | P. Desiderio, Ju. Gomez  |
+|                          |                          | de Liaño, W. Navarro, J. |
+|                          |                          | Cullar, S. Manganti, A.  |
+|                          |                          | Melecio, F. Serrano, C.  |
+|                          |                          | Conner, J. Lastimosa, M. |
+|                          |                          | Nieto, C. Vito           |
++--------------------------+--------------------------+--------------------------+
+| 5                        | J. Ahanmisi              | W. Comboy, T. Tio, A.    |
+|                          |                          | Caracut, I. Batalier, A. |
+|                          |                          | Inigo, J. Gallego        |
++--------------------------+--------------------------+--------------------------+
+| 6                        | Ju. Gomez de Liaño       | H. Cani, J. Parker, A.   |
+|                          |                          | Melecio, D. Ildefonso,   |
+|                          |                          | J. Manuel, S. Manganti,  |
+|                          |                          | J. Clemente, J. Varilla, |
+|                          |                          | C. Conner, J. Espeleta,  |
+|                          |                          | M. Aquino                |
++--------------------------+--------------------------+--------------------------+
+| 7                        | B. Akhuetie              | S. Akomo, B. Ebona, V.   |
+|                          |                          | Magbuhos, P. Orizu, D.   |
+|                          |                          | Murrell, A. Kouame, S.   |
+|                          |                          | Camacho                  |
++--------------------------+--------------------------+--------------------------+
+| 8                        | P. Desiderio             | D. Ildefonso, J.         |
+|                          |                          | Clemente, S. Manganti,   |
+|                          |                          | M. Nieto, C. Vito, F.    |
+|                          |                          | Serrano, J. Lastimosa,   |
+|                          |                          | A. Inigo, J. Manuel, D.  |
+|                          |                          | Dario                    |
++--------------------------+--------------------------+--------------------------+
+| 9                        | M. Lee                   | A. Asistio, B. Bienes,   |
+|                          |                          | E. Mojica, J. Go, D. Yu, |
+|                          |                          | K. Tuffin                |
++--------------------------+--------------------------+--------------------------+
+| 10                       | S. Manganti              | J. Manuel, P. Desiderio, |
+|                          |                          | F. Serrano, D.           |
+|                          |                          | Ildefonso, Ju. Gomez de  |
+|                          |                          | Liaño, A. Caracut, W.    |
+|                          |                          | Comboy, A. Inigo         |
++--------------------------+--------------------------+--------------------------+
+| 11                       | J. Clemente              | D. Dario, Ju. Gomez de   |
+|                          |                          | Liaño, P. Desiderio, J.  |
+|                          |                          | Varilla, M. Maloles, M.  |
+|                          |                          | Nieto, C. Vito           |
++--------------------------+--------------------------+--------------------------+
+| 12                       | J. Baltazar              | L. Santillian, M. Dyke,  |
+|                          |                          | P. Sarr, R. Escoto, L.   |
+|                          |                          | Gonzales, C. Catapusan,  |
+|                          |                          | J. Sinclair, I. Batalier |
++--------------------------+--------------------------+--------------------------+
+| 13                       | P. Sarr                  | M. Dyke, J. Sinclair, J. |
+|                          |                          | Baltazar, L. Santillian, |
+|                          |                          | G. Mahinay, I. Gaye      |
++--------------------------+--------------------------+--------------------------+
+| 14                       | L. Santillian            | J. Baltazar, R. Escoto,  |
+|                          |                          | M. Dyke, J. Cullar, R.   |
+|                          |                          | Verano, P. Sarr, L.      |
+|                          |                          | Gonzales                 |
++--------------------------+--------------------------+--------------------------+
+| 15                       | T. Ravena                | P. Manalang, A. Pasaol,  |
+|                          |                          | I. Go, W. Navarro, J.    |
+|                          |                          | Manzo                    |
++--------------------------+--------------------------+--------------------------+
+| 16                       | P. Manalang              | I. Go, W. Navarro, T.    |
+|                          |                          | Ravena, A. Pasaol, J.    |
+|                          |                          | Lastimosa, A. Tolentino  |
++--------------------------+--------------------------+--------------------------+
+| 17                       | A. Kouame                | V. Magbuhos, B.          |
+|                          |                          | Akhuetie, D. Murrell, S. |
+|                          |                          | Akomo, B. Ebona, J.      |
+|                          |                          | Manzo, S. Ildefonso      |
++--------------------------+--------------------------+--------------------------+
+| 18                       | A. Caracut               | L. Gonzales, R. Verano,  |
+|                          |                          | J. Manuel, A. Melecio,   |
+|                          |                          | S. Manganti, J.          |
+|                          |                          | Ahanmisi, W. Comboy, T.  |
+|                          |                          | Tio, J. Gallego, I.      |
+|                          |                          | Batalier                 |
++--------------------------+--------------------------+--------------------------+
+| 19                       | H. Cani                  | Ju. Gomez de Liaño, J.   |
+|                          |                          | Parker, J. Manuel, A.    |
+|                          |                          | Melecio, J. Espeleta, J. |
+|                          |                          | Varilla                  |
++--------------------------+--------------------------+--------------------------+
+| 20                       | W. Comboy                | A. Inigo, J. Manuel, A.  |
+|                          |                          | Caracut, S. Manganti, A. |
+|                          |                          | Melecio, J. Ahanmisi     |
++--------------------------+--------------------------+--------------------------+
 
  
 
@@ -2403,7 +2459,7 @@ shooting habits (low number of neighbors and high average distance) and
 those with common shooting habits (high number of neighbors with low
 average distance).
 
-![](images/image96.png)
+![](images/image58.png)
 
 Figure 4.9
 
@@ -2417,7 +2473,7 @@ indicates how similar the player is to his neighbors (shorter distance =
 more similar).
 
 An interactive online-version of the chart can be found at:
-[https://datawrapper.dwcdn.net/HhqG5/1/](https://www.google.com/url?q=https://datawrapper.dwcdn.net/HhqG5/1/&sa=D&source=editors&ust=1632363111815000&usg=AOvVaw0p9KK_hQWUfoLJVeQFt5Ei)
+[https://datawrapper.dwcdn.net/HhqG5/1/](https://www.google.com/url?q=https://datawrapper.dwcdn.net/HhqG5/1/&sa=D&source=editors&ust=1634968641132000&usg=AOvVaw3-KkPUIXiqieLp2vSxUouV)
 
         
 
@@ -2434,12 +2490,12 @@ this group only have five to six neighbors each. This combination of low
 number of neighbors and long distance between them and their neighbors
 could indicate that the players belonging to this group have uncommon
 shooting habits relative to the rest of the league. The players in this
-group are G. Mamuyac, J. Pinggoy, F. Jaboneta, and T. Tio.
+group are G. Mamuyac, J. Pingoy, F. Jaboneta, and T. Tio.
 
          Figure 4.10 shows the same graph as Figure 4.9 but adds
 information about the player’s team.
 
-![](images/image93.png)
+![](images/image90.png)
 
 Figure 4.10
 
@@ -2449,7 +2505,7 @@ number of field goal attempts by the player. The color corresponds to
 the team.
 
 Note: An interactive online version of the chart can be found at:
-[https://datawrapper.dwcdn.net/ReKGQ/1/](https://www.google.com/url?q=https://datawrapper.dwcdn.net/ReKGQ/1/&sa=D&source=editors&ust=1632363111817000&usg=AOvVaw0_j2VKr2McUPoh1yRXijJH)
+[https://datawrapper.dwcdn.net/ReKGQ/1/](https://www.google.com/url?q=https://datawrapper.dwcdn.net/ReKGQ/1/&sa=D&source=editors&ust=1634968641134000&usg=AOvVaw0U1NFj0pIL6k69uQnWIRqe)
 
         
 
@@ -2458,7 +2514,7 @@ players with their teammates. For each team, a nearest neighbor analysis
 was performed to compute the average distance between a player and all
 his teammates. Figure 4.11 shows the results.
 
-![](images/image64.png)
+![](images/image88.png)
 
 Figure 4.11
 
@@ -2466,70 +2522,94 @@ Plot of the average distance between a player’s shooting habits with the
 rest of his teammates. Shorter distance = greater similarity.
 
 Note: An interactive online version of the chart can be found at:
-[https://datawrapper.dwcdn.net/2UphE/1/](https://www.google.com/url?q=https://datawrapper.dwcdn.net/2UphE/1/&sa=D&source=editors&ust=1632363111818000&usg=AOvVaw0xooZ_5Q6K-Pq8xJbIzctf)
+[https://datawrapper.dwcdn.net/2UphE/1/](https://www.google.com/url?q=https://datawrapper.dwcdn.net/2UphE/1/&sa=D&source=editors&ust=1634968641135000&usg=AOvVaw0Oxhqbt6OyEIAnTCUJ7Wjr)
 
         Figure 4.11 shows the variation of player shooting habits per
 team. An interesting observation here are the plots of the UE Red
-Warriors and DLSU Green Archers.
+Warriors and DLSU Green Archers. In the case of both teams, the
+distances between the shooting habits of their players with the rest of
+their teammates are small which means that their players have similar
+shooting habits and can indicate that both teams run a predictable
+offense regardless of the combination of players on the court. For both
+teams, the players with the most field goal attempts are also those with
+the most similar shooting habits to the rest of their team indicated by
+the large circles at the lower end of their graphs.
+
+In contrast, the other teams have a significantly larger range of values
+in terms of the similarities in the shooting habits of their players.
+All of them have one or two players whose shooting habits are very
+different compared to the rest of the team—G. Mamuyac and A. Kouame for
+ADMU, J. Pingoy and V. Magbuhos for ADU, P. Orizu and B. Ebona for FEU,
+D. Yu for NU, B. Akhuetie for UP, and S. Akomo for UST. Unlike UE and
+DLSU, the players with the most field goal attempts for the rest of the
+teams do not always have similar shooting habits with the rest of their
+teammates which can indicate that the teams can run a more varied
+offense.  
 
 The complete results of the nearest neighbors analysis is found below:
-[https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/outputs/nearest-neighbor](https://www.google.com/url?q=https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/outputs/nearest-neighbor&sa=D&source=editors&ust=1632363111820000&usg=AOvVaw0MggTLmlyCqVoHFtOP3xUj)
+[https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/outputs/nearest-neighbor](https://www.google.com/url?q=https://github.com/benhur07b/ms-thesis-spatial-analysis-shooting-philippine-basketball/tree/main/outputs/nearest-neighbor&sa=D&source=editors&ust=1634968641136000&usg=AOvVaw243_HjwOwHTcMQ7dGRjQ4J)
 
-### 4.1.5        Player analysis {#h.g2gl4tur3wxk .c21 .c61}
+4.5        Empirical Bayes estimate of Points Per Attempt {#h.dw6zd6pzp9ta .c16}
+---------------------------------------------------------
 
-#### 4.1.5.1        Spatial Shooting Effectiveness (SScE) of players {#h.e3cei1ci4tz6 .c21 .c61}
+4.6        Player analysis {#h.g2gl4tur3wxk .c16}
+--------------------------
 
-#### 4.1.5.2        Spatial Shooting Effectiveness (SScE) of players with similar shooting habits {#h.rqnpaajb4hos .c21 .c61}
+### 4.6.1        Spatial Shooting Effectiveness (SScE) of players {#h.e3cei1ci4tz6 .c10}
 
-#### 4.1.5.3        Points Relative to League Average (PRLA) of players {#h.1jz7ytwmjhue .c21 .c61}
+### 4.6.2        Spatial Shooting Effectiveness (SScE) of players with similar shooting habits {#h.rqnpaajb4hos .c10}
 
-#### 4.1.5.4        Points Relative to League Average (PRLA) of players with similar shooting habits {#h.rjwp72uwegae .c21 .c61}
+### 4.6.3        Points Relative to League Average (PRLA) of players {#h.1jz7ytwmjhue .c10}
 
-### 4.1.6        Team analysis {#h.fce6wp1z6pr1 .c21 .c61}
+### 4.6.4        Points Relative to League Average (PRLA) of players with similar shooting habits {#h.rjwp72uwegae .c10}
 
-#### 4.1.6.1        Spatial Shooting Effectiveness (SScE) of teams {#h.fg8uj05b5qjx .c21 .c61}
+4.7        Team analysis {#h.fce6wp1z6pr1 .c16}
+------------------------
 
-#### 4.1.6.2        Points Relative to League Average (PRLA) of teams {#h.e0vejr1cuu1d .c21 .c61}
+### 4.7.1        Spatial Shooting Effectiveness (SScE) of teams {#h.fg8uj05b5qjx .c10}
 
-### 4.1.7        Metric Analysis {#h.5vgymrz2i4mk .c21 .c61}
+### 4.7.2        Points Relative to League Average (PRLA) of teams {#h.e0vejr1cuu1d .c10}
 
-#### 4.1.7.1        Comparison of SScE with EFG {#h.r124wjdmqxq2 .c21 .c61}
+4.8        Metric Analysis {#h.5vgymrz2i4mk .c16}
+--------------------------
 
-#### 4.1.7.2        Comparison of estimated PPA with raw PPA {#h.xwxnaimy7lc .c21 .c61}
+### 4.8.1        Comparison of SScE with EFG {#h.r124wjdmqxq2 .c10}
 
-#### 4.1.7.3        Correlation with winning {#h.qrsmq632q6dq .c21 .c61}
+### 4.8.2        Comparison of estimated PPA with raw PPA {#h.xwxnaimy7lc .c10}
 
-#### 4.1.7.4        Comparison of top 20 and bottom 20 players {#h.qsop5ouzzbih .c21 .c61}
+### 4.8.3        Correlation with winning {#h.qrsmq632q6dq .c10}
 
-#### 4.1.7.4        Comparison of Final Four and non-Final Four teams {#h.2o1oqudqq5ne .c21 .c61}
+### 4.8.4        Comparison of top 20 and bottom 20 players {#h.qsop5ouzzbih .c10}
+
+### 4.8.4        Comparison of Final Four and non-Final Four teams {#h.2o1oqudqq5ne .c10}
 
 * * * * *
 
-5.         Summary and Recommendations {#h.numlv4xmpsr .c82 .c55 .c61}
+5.         Summary and Recommendations {#h.numlv4xmpsr .c90 .c45}
 ======================================
 
-5.1        Summary and conclusion {#h.j5k3av8u97cs .c59 .c55}
+5.1        Summary and conclusion {#h.j5k3av8u97cs .c16}
 ---------------------------------
 
-5.2        Recommendation for future work {#h.vgkad1l03p1n .c59 .c55}
+5.2        Recommendation for future work {#h.vgkad1l03p1n .c16}
 -----------------------------------------
 
 * * * * *
 
-Annex 1: Glossary of Terms {#h.wqm4x2jkl1gd .c82 .c55 .c61}
-==========================
+Appendix 1: Glossary of Terms {#h.wqm4x2jkl1gd .c90 .c45}
+=============================
 
 * * * * *
 
- {#h.4vpwp4acqajc .c82 .c55 .c61 .c89}
+ {#h.4vpwp4acqajc .c76 .c45}
 
-Bibliography {#h.omsgbg6nvt5u .c82 .c55 .c61}
+Bibliography {#h.omsgbg6nvt5u .c90 .c45}
 ============
 
 []        Bailey, N., Bhuwalka, K., Lee, H., & Zhong, T. (2018),
 Understanding Features of Successful 3 Point Shots in the NBA,
 Massachusetts Institute of Technology, MIT. Available at:
-[http://www.mit.edu/\~nbailey/files/3ptreport.pdf](https://www.google.com/url?q=http://www.mit.edu/~nbailey/files/3ptreport.pdf&sa=D&source=editors&ust=1632363111827000&usg=AOvVaw0CcpEjuYF43O9wtoOAsfpG)
+[http://www.mit.edu/\~nbailey/files/3ptreport.pdf](https://www.google.com/url?q=http://www.mit.edu/~nbailey/files/3ptreport.pdf&sa=D&source=editors&ust=1634968641142000&usg=AOvVaw2ULOqRlMC-S00BY_73BWNN)
 
 []        Bornn L, Daly-Grafstein D. (2019). Using in-game shot
 trajectories to better understand defensive impact in the NBA. arXiv
@@ -2538,7 +2618,7 @@ preprint arXiv:1905.00822
 []        Brunet J-P., et al. (2004) Metagenes and molecular pattern
 discovery using matrix factorization. Proc. Natl Acad. Sci. USA, 2004,
 vol. 101 (pg. 4164-4169).
-DOI:[10.1073/pnas.0308531101](https://www.google.com/url?q=http://doi.org/10.1073/pnas.0308531101&sa=D&source=editors&ust=1632363111829000&usg=AOvVaw2TWtoX4EskwL1if_pCseup).
+DOI:[10.1073/pnas.0308531101](https://www.google.com/url?q=http://doi.org/10.1073/pnas.0308531101&sa=D&source=editors&ust=1634968641143000&usg=AOvVaw3F3p8eJ7y_yJAXyjl8wglj).
 
 []         Cervone D., D’Amour A., Bornn L., & Goldsberry K. (2016). A
 multiresolution stochastic process model for predicting basketball
@@ -2558,17 +2638,17 @@ Sloan Sports Analytics Conference, 2015.
 []        Franks, A., Miller, A., Bornn, L., & Goldsberry, K. (2015).
 Characterizing the spatial structure of defensive skill in professional
 basketball. Annals of Applied Statistics 9 (2015), no. 1, 94-121.
-DOI:[10.1214/14-AOAS799](https://www.google.com/url?q=http://doi.org/10.1214/14-AOAS799&sa=D&source=editors&ust=1632363111831000&usg=AOvVaw22A50EYEeFROnNVXiA9RE3).
+DOI:[10.1214/14-AOAS799](https://www.google.com/url?q=http://doi.org/10.1214/14-AOAS799&sa=D&source=editors&ust=1634968641145000&usg=AOvVaw37DHL9qwqf9jJj1BOOjugB).
 
 []        Frigyesi, A., & Höglund, M. (2008). Non-negative matrix
 factorization for the analysis of complex gene expression data:
 identification of clinically relevant tumor subtypes. Cancer
 informatics, 6, 275–292.
-DOI:[10.4137/cin.s606](https://www.google.com/url?q=https://doi.org/10.4137/cin.s606&sa=D&source=editors&ust=1632363111831000&usg=AOvVaw1ATYI4UUk1Zqi8hjw1d8Hj).
+DOI:[10.4137/cin.s606](https://www.google.com/url?q=https://doi.org/10.4137/cin.s606&sa=D&source=editors&ust=1634968641146000&usg=AOvVaw0MQpaMPV_DxI_dkG6MSOAv).
 
 []        Gaujoux, R. & Seoighe, C. (2010). A flexible R package for
 nonnegative matrix factorization. BMC Bioinformatics 2010, 11:367.
-[http://www.biomedcentral.com/1471-2105/11/367](https://www.google.com/url?q=http://www.biomedcentral.com/1471-2105/11/367&sa=D&source=editors&ust=1632363111832000&usg=AOvVaw28D5pGpTmvOtfhBvsOuE7v).
+[http://www.biomedcentral.com/1471-2105/11/367](https://www.google.com/url?q=http://www.biomedcentral.com/1471-2105/11/367&sa=D&source=editors&ust=1634968641146000&usg=AOvVaw1PMVfUkShmj7jlXGfpT8kj).
 
 []        Goldsberry, K. (2012) CourtVision: New Visual and Spatial
 Analytics for the NBA. MIT Sloan Sports Analytics Conference, 2012.
@@ -2582,20 +2662,20 @@ era of the NBA. Boston: Houghton Mifflin Harcourt.
 
 []        Harris, C. R. et al. (2020). Array programming with NumPy,
 Nature, 585, 357–362,
-DOI:[10.1038/s41586-020-2649-2](https://www.google.com/url?q=http://doi.org/10.1038/s41586-020-2649-2&sa=D&source=editors&ust=1632363111833000&usg=AOvVaw0twuk3dxOtxV4c2OtzZVR2).
+DOI:[10.1038/s41586-020-2649-2](https://www.google.com/url?q=http://doi.org/10.1038/s41586-020-2649-2&sa=D&source=editors&ust=1634968641148000&usg=AOvVaw0q5XLwcTTXbqPgKxvIzOq4).
 
 []        Hunter, J. D. (2007). Matplotlib: A 2D Graphics Environment,
 Computing in Science & Engineering, 9, 90-95,
-DOI:[10.1109/MCSE.2007.55](https://www.google.com/url?q=http://doi.org/10.1109/MCSE.2007.55&sa=D&source=editors&ust=1632363111834000&usg=AOvVaw3aWC5Ze882Jnd6EEuxWFxv) 
+DOI:[10.1109/MCSE.2007.55](https://www.google.com/url?q=http://doi.org/10.1109/MCSE.2007.55&sa=D&source=editors&ust=1634968641149000&usg=AOvVaw3Gbw954dLaLNo1MJgoldRg) 
 
 []         Hutchins, L., Murphy, S., Singh, P., & Graber, J. (2008).
 Position-Dependent Motif Characterization Using Nonnegative Matrix
 Factorization. Bioinformatics (Oxford, England). 24. 2684-90.
-DOI:[10.1093/bioinformatics/btn526](https://www.google.com/url?q=http://doi.org/10.1093/bioinformatics/btn526&sa=D&source=editors&ust=1632363111834000&usg=AOvVaw37ipo2pWuMFL8CigVI9q7k).
+DOI:[10.1093/bioinformatics/btn526](https://www.google.com/url?q=http://doi.org/10.1093/bioinformatics/btn526&sa=D&source=editors&ust=1634968641150000&usg=AOvVaw2rwD72b-6UGM4Ie6lDcOv4).
 
 []        Jiao, J., Hu, G., & Jan, Y. (2019). A Bayesian Marked Spatial
 Point Processes Model for Basketball Shot Chart.
-[https://arxiv.org/abs/1908.05745v2](https://www.google.com/url?q=https://arxiv.org/abs/1908.05745v2&sa=D&source=editors&ust=1632363111835000&usg=AOvVaw1zZmXVuu5oqFr13BktjlBZ).
+[https://arxiv.org/abs/1908.05745v2](https://www.google.com/url?q=https://arxiv.org/abs/1908.05745v2&sa=D&source=editors&ust=1634968641150000&usg=AOvVaw3uYV20_sBLdBPFB9pcAGg1).
 
 []        Lee, D. & Seung, S. (1999), Learning the parts of objects by
 non-negative matrix factorization. Nature, 401(6755):788–791, 1999.
@@ -2613,7 +2693,7 @@ Proceedings of the 2018 MIT Sloan Sports Analytics Conference.
 
 []        McKinney, W. (2010). Data Structures for Statistical Computing
 in Python, Proceedings of the 9th Python in Science Conference, 51-56.
-DOI:[10.25080/Majora-92bf1922-00a](https://www.google.com/url?q=http://doi.org/10.25080/Majora-92bf1922-00a&sa=D&source=editors&ust=1632363111836000&usg=AOvVaw3wTbR7g9QJuTkkc3ghR4VI) 
+DOI:[10.25080/Majora-92bf1922-00a](https://www.google.com/url?q=http://doi.org/10.25080/Majora-92bf1922-00a&sa=D&source=editors&ust=1634968641153000&usg=AOvVaw3_JOJkYMg1Zf1RNMmXTMEQ) 
 
 []        Miller, A., Bomn, L., Adams, R., & Goldsberry, K. (2014).
 Factorized point process intensities: A spatial analysis of professional
@@ -2623,11 +2703,11 @@ ICML 2014; Vol. 1). International Machine Learning Society (IMLS).
 
 []         Murillo M.A.S. (2019, July 22). Sports analytics in the
 Moneyball era. BusinessWorld.
-[https://www.bworldonline.com/sports-analytics-in-the-moneyball-era/](https://www.google.com/url?q=https://www.bworldonline.com/sports-analytics-in-the-moneyball-era/&sa=D&source=editors&ust=1632363111837000&usg=AOvVaw36RyxkS_bGRDZOtlttWrJG)
+[https://www.bworldonline.com/sports-analytics-in-the-moneyball-era/](https://www.google.com/url?q=https://www.bworldonline.com/sports-analytics-in-the-moneyball-era/&sa=D&source=editors&ust=1634968641154000&usg=AOvVaw1YOEBPOfQOBkiL-VA0HvhK)
 
 []        Pedregosa, F. et al. (2011). Scikit-learn: Machine Learning in
 Python, Journal of Machine Learning Research, 12, 2825-2830. URL
-[http://jmlr.org/papers/v12/pedregosa11a.html](https://www.google.com/url?q=http://jmlr.org/papers/v12/pedregosa11a.html&sa=D&source=editors&ust=1632363111838000&usg=AOvVaw32vUfjaf6iPVyZO-hIfSS1)
+[http://jmlr.org/papers/v12/pedregosa11a.html](https://www.google.com/url?q=http://jmlr.org/papers/v12/pedregosa11a.html&sa=D&source=editors&ust=1634968641155000&usg=AOvVaw2CN7nAAbtAkzeYWd4rSm6A)
 
 []        Pintor, B., & Cataniag, N. (2014). CourtVisionPH: A System for
 the Extraction of Field Goal Attempt Locations from Broadcast Basketball
@@ -2635,19 +2715,19 @@ Videos and Spatial Analysis of Shooting. Undergraduate Research.
 University of the Philippines College of Engineering.
 
 []        Python Software Foundation (2021). Python. URL
-[https://www.python.org/](https://www.google.com/url?q=https://www.python.org/&sa=D&source=editors&ust=1632363111838000&usg=AOvVaw1bRFlPGGL9JVTbf8w-Hs4t).
+[https://www.python.org/](https://www.google.com/url?q=https://www.python.org/&sa=D&source=editors&ust=1634968641156000&usg=AOvVaw3dqihvAGjT5qzn6ZWguknY).
 
 []        R Core Team (2021). R: A language and environment for
 statistical computing. R  Foundation for Statistical Computing, Vienna,
 Austria. URL  
-[https://www.R-project.org/](https://www.google.com/url?q=https://www.r-project.org/&sa=D&source=editors&ust=1632363111839000&usg=AOvVaw3o1OdlYeoSRG8oKkJqKyOP).
+[https://www.R-project.org/](https://www.google.com/url?q=https://www.r-project.org/&sa=D&source=editors&ust=1634968641157000&usg=AOvVaw20o5Xh3m-rTaPZ9H5XwfQs).
 
 []        Robinson, David (2017). ebbr: Empirical Bayes on binomial
 data. R package version 0.1.
 
 []        RStudio Team (2021). RStudio: Integrated Development for R.
 RStudio, PBC, Boston, MA URL
-[http://www.rstudio.com/](https://www.google.com/url?q=http://www.rstudio.com/&sa=D&source=editors&ust=1632363111839000&usg=AOvVaw27avtffYGfr_2skxmc6X_L).
+[http://www.rstudio.com/](https://www.google.com/url?q=http://www.rstudio.com/&sa=D&source=editors&ust=1634968641158000&usg=AOvVaw0dOf7hYC5AzXwqWJfkmlro).
 
 []         Rolland, G., Vuillemot, R., Bos, W., & Rivière, N. (2020).
 Characterization of Space and Time-Dependence of 3-Point Shots in
@@ -2655,44 +2735,22 @@ Basketball. MIT Sloan Sports Analytics Conference, 2020.
 
 []        Sandholtz, N., Mortensen, J., & Bornn, L. (2019). Measuring
 Spatial Allocative Efficiency in Basketball.
-[https://arxiv.org/abs/1912.05129v1](https://www.google.com/url?q=https://arxiv.org/abs/1912.05129v1&sa=D&source=editors&ust=1632363111840000&usg=AOvVaw1OgXme7q9AETFKEcagtP4L).
+[https://arxiv.org/abs/1912.05129v1](https://www.google.com/url?q=https://arxiv.org/abs/1912.05129v1&sa=D&source=editors&ust=1634968641159000&usg=AOvVaw3ulv16OP38L11g1O6ORjnA).
 
 []        Virtanen, P. et al. (2020) SciPy 1.0: Fundamental Algorithms
 for Scientific Computing in Python. Nature Methods, 17(3), 261-272.
-DOI:[doi.org/10.1038/s41592-019-0686-2](https://www.google.com/url?q=https://doi.org/10.1038/s41592-019-0686-2&sa=D&source=editors&ust=1632363111840000&usg=AOvVaw1fMEgM0g6C4pbd2F6OpS15).
+DOI:[doi.org/10.1038/s41592-019-0686-2](https://www.google.com/url?q=https://doi.org/10.1038/s41592-019-0686-2&sa=D&source=editors&ust=1634968641159000&usg=AOvVaw2Rw0IUqgFvfw4fUx8991wj).
 
 []        Shortridge, A., Goldsberry, K., & Adams, M. (2014). Creating
 space to shoot: quantifying spatial relative field goal efficiency in
 basketball. Journal of Quantitative Analysis in Sports, 10(3), 303-313.
-DOI:[doi.org/10.1515/jqas-2013-0094](https://www.google.com/url?q=https://doi.org/10.1515/jqas-2013-0094&sa=D&source=editors&ust=1632363111841000&usg=AOvVaw379ErQnWOqedG-dXveOdf9).
+DOI:[doi.org/10.1515/jqas-2013-0094](https://www.google.com/url?q=https://doi.org/10.1515/jqas-2013-0094&sa=D&source=editors&ust=1634968641160000&usg=AOvVaw2PHHwjuMm_diZFSqIPJL2I).
 
 []        Socamos, K. (2018, January 16). PBA News: Alaska analytics
 coach Layug on…. spin.ph.
-[https://www.spin.ph/basketball/pba/more-than-just-numbers-as-analytics-coach-paolo-layug-tries-to-help-alaska-relive-lost-glory](https://www.google.com/url?q=https://www.spin.ph/basketball/pba/more-than-just-numbers-as-analytics-coach-paolo-layug-tries-to-help-alaska-relive-lost-glory&sa=D&source=editors&ust=1632363111842000&usg=AOvVaw1eopfsteiDhTt4JaWejwI2)
+[https://www.spin.ph/basketball/pba/more-than-just-numbers-as-analytics-coach-paolo-layug-tries-to-help-alaska-relive-lost-glory](https://www.google.com/url?q=https://www.spin.ph/basketball/pba/more-than-just-numbers-as-analytics-coach-paolo-layug-tries-to-help-alaska-relive-lost-glory&sa=D&source=editors&ust=1634968641161000&usg=AOvVaw3KgKLZ_cwpIhCNIbptY7dK)
 
 []         Tenner, Z., & Franks A. (2020). Modeling Player and Team
 Performance in Basketball.
 
-
-
-
-
-<!-- REFERENCE LINKS -->
-
-
-
-<!-- IMAGE LINKS -->
-
-[img-courtvisionph]: images/image45.png "The CourtVisionPH System (Pintor and Cataniag, 2014)"
-[img-shootingzones-fifa]: images/image48.png "Shooting zone divisions (FIBA LiveStats)"
-[img-shootingzones-nba]: images/image50.png "Shooting zone divisions (NBA)"
-[img-nmf-vwb]: images/image1.png "NMF formula"
-[img-nmf-v]: images/image2.png "NMF data matrix"
-[img-nmf-w]: images/image3.png "NMF weights matrix"
-[img-nmf-b]: images/image4.png "NMF basis vector"
-[img-nmf-intensity-surface]: images/image5.png "NMF intensity surface"
-[img-nmf-fg-matrix]: images/image6.png "NMF field goal matrix"
-[img-delta-hat-n]: images/image7.png "delta hat n"
-[img-nmf-comparisons]: images/image46.png "Visual comparison of basis resulting from various dimensionality reduction approaches."
-[img-nmf-predictive]: images/image51.png "Predictive Likelihood (10-fold cv) of LGCP and LGCP-NMF at varying K"
-[img-basis-franks]: images/image52.png "The basis vectors and the residual basis using LGCP-NMF with KL loss function and K=6"
+[[a]](#cmnt_ref1)Cite applicable or relevant figures per observation.
