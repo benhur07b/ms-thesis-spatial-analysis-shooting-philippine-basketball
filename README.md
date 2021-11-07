@@ -2,7 +2,7 @@
 
 #openscience #openresearch #opendata #openknowledge
 
-This repository holds my MS Thesis [MS Geomatics Engineering (GeoInformatics), University of the Philippines] and includes the [**data**](data/), [**code**](code/), [**outputs**](outputs/), and [**manuscript**](https://bnhr.xyz/ms-thesis-spatial-analysis-shooting-philippine-basketball/manuscript/index.html). 
+This repository holds my MS Thesis [MS Geomatics Engineering (GeoInformatics), University of the Philippines] and includes the [**data**](data/), [**code**](code/), [**outputs**](outputs/), and [**manuscript**](https://bnhr.xyz/ms-thesis-spatial-analysis-shooting-philippine-basketball/manuscript/PintorBHS-MS-Thesis-Towards-a-Spatial-Analysis-of-Shooting-in-Philippine-Basketball.pdf). 
 
 
 # LICENSE
